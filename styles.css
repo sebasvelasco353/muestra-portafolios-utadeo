@@ -15,7 +15,10 @@ html, body {
     margin: 0 auto;
     max-width: 100%;
     min-height: 100vh;
-    background-color: aqua;
+    background-color: grey;
+    background-size: cover;
+
+    background-image: url('./assets/header.png');
 }
 .container {
     height: 100%;
