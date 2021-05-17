@@ -294,4 +294,8 @@ html, body {
         display: grid;
         grid-template-columns: auto;
     }
+    .portfolioItem {
+        min-width: 15vw;
+        height: 50vh;
+    }
 }
