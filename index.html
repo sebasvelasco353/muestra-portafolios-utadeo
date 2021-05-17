@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Muestra de portafolios universidad Tadeo Lozano 2021-1</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
       <a class="portfolioItem _11" href="https://readymag.com/u771155526/2686310/"></a>
       <a class="portfolioItem _12" href="https://salomeah.com"></a>
       <a class="portfolioItem _13" href="camiloveloza.com"></a>
-      <a class="portfolioItem _14" href="http://pilarbenito.co"></a>
+      <a class="portfolioItem _14" href="www.pilarbenito.co/preindex.html"></a>
       <a class="portfolioItem _15" href="https://www.fercasdesign.com/"></a>
       <a class="portfolioItem _16" href="https://mach-portafolio.animaapp.io"></a>
       <a class="portfolioItem _17" href="http://danisole.co"></a>
@@ -30,7 +31,7 @@
       <a class="portfolioItem _19" href="http://isabellajaramillo.com/"></a>
       <a class="portfolioItem _20" href="http://nustamichelle.co"></a>
       <a class="portfolioItem _21" href="https://aleongraphicdesign.com/"></a>
-      <a class="portfolioItem _22" href="dorianinsane.com"></a>
+      <a class="portfolioItem _22" href="http://dorianinsane.com/"></a>
       <a class="portfolioItem _23" href="https://manuelatorres.com/"></a>
       <a class="portfolioItem _24" href="https://www.utafolio.com"></a>
       <a class="portfolioItem _25" href="http://hoscomr.com/"></a>
@@ -41,7 +42,7 @@
       <a class="portfolioItem _30" href="http://www.daosilustra.com/"></a>
       <a class="portfolioItem _31" href="https://karenavilag.com/"></a>
       <a class="portfolioItem _32" href="https://soyzalami.com/"></a>
-      <a class="portfolioItem _33" href=""></a>
+      <a class="portfolioItem _33" href="http://jennyespitia.com/"></a>
       <a class="portfolioItem _34" href="https://www.mariaalejandraovalle.com/"></a>
       <a class="portfolioItem _35" href="https://mafe.miguelgomezdesigner.xyz/index.html"></a>
       <a class="portfolioItem _36" href="https://www.valeriacala.com/"></a>
@@ -55,11 +56,21 @@
       <a class="portfolioItem _44" href="https://luisjgarciap.wixsite.com/portafolio"></a>
       <a class="portfolioItem _45" href="https://laurapico.com/"></a>
       <a class="portfolioItem _46" href="http://luisa.website"></a>
-      <a class="portfolioItem _47"></a>
+      <a class="portfolioItem _47" href="https://sebastians-portfolio-35ad89.webflow.io/"></a>
       <div class="portfolioItem _48"></div>
       <div class="portfolioItem _49"></div>
       <div class="portfolioItem _50"></div>
    </div>
-   <script src="./main.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+   <script>
+      gsap.from(".portfolioItem", {
+        duration: 1,
+        xPercent: -10,
+        opacity: 0,
+        delay: 0.5,
+        stagger: 0.2,
+        ease: "power2.out",
+      });
+   </script>
 </body>
 </html>

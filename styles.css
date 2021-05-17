@@ -7,6 +7,7 @@ html, body {
     padding: 0;
 
     font-size: 10px;
+    overflow-x: hidden;
     box-sizing: border-box;
 }
 .header {
@@ -14,6 +15,7 @@ html, body {
     height: 100%;
     margin: 0 auto;
     max-width: 100%;
+    overflow: hidden;
     min-height: 100vh;
     background-color: grey;
     background-size: cover;
@@ -27,6 +29,7 @@ html, body {
     background-color: darkgray;
     grid-template-columns: auto auto auto auto auto;
 }
+
 .portfolioItem {
     min-width: 15vw;
     height: 40vh;
@@ -285,4 +288,10 @@ html, body {
     background-size: cover;
     background-position: center;
     background-image: url('./assets/50.png');
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
