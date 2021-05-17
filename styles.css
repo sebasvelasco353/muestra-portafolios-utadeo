@@ -28,7 +28,7 @@ html, body {
 }
 .portfolioItem {
     min-width: 15vw;
-    min-height: 15vw;
+    height: 40vh;
     column-gap: 0px;
     background-color: red;
     filter: grayscale(0%);
@@ -38,101 +38,126 @@ html, body {
 }
 ._1 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/1.png');
 }
 ._2 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/2.png');
 }
 ._3 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/3.png');
 }
 ._4 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/4.png');
 }
 ._5 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/5.png');
 }
 ._6 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/6.png');
 }
 ._7 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/7.png');
 }
 ._8 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/8.png');
 }
 ._9 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/9.png');
 }
 ._10 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/10.png');
 }
 ._11 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/11.png');
 }
 ._12 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/12.png');
 }
 ._13 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/13.png');
 }
 ._14 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/14.png');
 }
 ._15 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/15.png');
 }
 ._16 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/16.png');
 }
 ._17 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/17.png');
 }
 ._18 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/18.png');
 }
 ._19 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/19.png');
 }
 ._20 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/20.png');
 }
 ._21 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/21.png');
 }
 ._22 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/22.png');
 }
 ._23 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/23.png');
 }
 ._24 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/24.png');
 }
 ._25 {
     background-size: cover;
+    background-position: center;
     background-image: url('./assets/25.png');
 }
