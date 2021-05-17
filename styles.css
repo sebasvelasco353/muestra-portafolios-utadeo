@@ -31,7 +31,6 @@ html, body {
     min-width: 15vw;
     height: 40vh;
     column-gap: 0px;
-    background-color: red;
     filter: grayscale(0%);
 }
 .portfolioItem:hover {
